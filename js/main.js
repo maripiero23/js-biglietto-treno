@@ -25,7 +25,7 @@ if (age < 18) {
 
 if(age<18){
     prezzodelbiglietto = document.getElementById("prezzodelbiglietto");
-prezzodelbiglietto.innerHTML = (priceJourney * .80).toFixed(2)
+    prezzodelbiglietto.innerHTML = (priceJourney * .80).toFixed(2)
 } else if (age > 65){
     prezzodelbiglietto = document.getElementById("prezzodelbiglietto");
     prezzodelbiglietto.innerHTML = (priceJourney * .60).toFixed(2)
