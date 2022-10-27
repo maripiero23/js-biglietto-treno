@@ -19,7 +19,7 @@ if (age < 18) {
     console.log("prezzo scontato è", discountPrice.toFixed(2))
 
 
-} else if (age >= 18 && age < 65) {
+} else (age >= 18 && age < 65) {
     alert(priceJourney)
 }
 
