@@ -1,20 +1,20 @@
-let nKilometraggio = prompt("Quanti km vuoi percorrere?")
+let nKilometraggio = prompt("Quanti km vuoi percorrere?");
 
-let age = prompt("Quanti anni hai?")
+let age = prompt("Quanti anni hai?");
 
-let priceJourney = .21 * nKilometraggio
+let priceJourney = .21 * nKilometraggio;
 
 
 if (age < 18) {
     alert(priceJourney * .80);
-    let discountPrice = priceJourney * .80
+    let discountPrice = priceJourney * .80;
     let n = discountPrice.toFixed(2);
     console.log("prezzo scontato è", discountPrice.toFixed(2));
 
 
 } else if (age > 65) {
     alert(priceJourney * .60);
-    let discountPrice = priceJourney * .60
+    let discountPrice = priceJourney * .60;
     let n = discountPrice.toFixed(2);
     console.log("prezzo scontato è", discountPrice.toFixed(2));
 
