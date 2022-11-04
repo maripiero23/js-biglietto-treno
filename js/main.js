@@ -1,4 +1,4 @@
-let nKilometraggio = prompt("Quanti km vuoi percorrere?");
+let nKilometraggio = parseInt( prompt("Quanti km vuoi percorrere?"));
 
 let age = prompt("Quanti anni hai?");
 
